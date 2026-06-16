@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from '../styles/Hero.module.css';
 import crest from '../assets/de oppresso liber.png';
+import headerBg from '../assets/header_bg.png';
 
 export function Hero() {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ export function Hero() {
   return (
     <section id="home" className={styles.hero}>
       <div className={styles.heroBackground} 
-           style={{backgroundImage: 'url(https://i.redd.it/qlpf4a92n5sd1.png)'}} />
+           style={{ backgroundImage: `url(${headerBg})` }} />
       <div className={styles.heroOverlay} />
       <div className={styles.heroInner}>
         <div className={styles.heroContent}>

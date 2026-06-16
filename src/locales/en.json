@@ -47,23 +47,13 @@
     "statMembers": "currently active members",
     "statAge": "current age range",
     "statTravel": "throughout the Czech Republic",
-    "discordTitle": "Our Discord",
-    "discordDescription": "Members get access to our internal Discord server — a central hub built around operational discipline and continuous improvement:",
-    "discordFeatures": [
-      "Mission calendar with upcoming operations",
-      "Dedicated channel for each mission with full briefing",
-      "Document library for self-improvement",
-      "ATAK manuals and field guides",
-      "Tactics, techniques & procedures (TTP) resources",
-      "Team coordination channels and voice ops"
-    ],
     "howToJoin": "How to Join",
     "joinDescription": "Just write us a few words about yourself and why you want to join us. We'll get back to you, arrange a meeting, and discuss everything you're interested in. Final recruitment takes place mainly during exercises in the Králický Sněžník and Mošnov areas.",
     "joinProcessTitle": "What to expect after reaching out",
     "joinSteps": [
       "Someone from our team will reach out to arrange a personal meeting or, if the timing works, invite you to the next mission — either a full-scale operation or an FTX where you’ll meet most of the team as a recruit.",
       "After the event, the team decides whether you’re someone we want to spend our weekends with.",
-      "New recruits must complete our \u2018hell weekend\u2019 \u2014 SFAS \u2014 the most demanding weekend we run, designed to make sure you can handle everything we do. It\u2019s a tough challenge, but one you\u2019ll look back on with pride."
+      "New recruits must pass the \u2018hell weekend\u2018. SFAS is your ticket to join us. It proves that you can handle everything we do and work as part of a team. It’s a tough challenge, but one you’ll look back on with pride."
     ],
     "joinButton": "I Want to Join",
     "followUs": "Follow Us",
@@ -73,7 +63,6 @@
   },
   "gallery": {
     "title": "Gallery",
-    "description": "Follow us on Instagram for more exclusive content from our operations:",
     "visitButton": "Visit Our Instagram Profile @tenthsfgcz",
     "missions": [
       "Operation Iron Ridge",
@@ -85,7 +74,7 @@
   "contact": {
     "title": "Contact",
     "subtitle": "Want to get in touch? Reach us through any of the following channels:",
-    "facebookLink": "Click here",
+    "facebookLink": "@tenthsfgcz",
     "messengerLink": "Send us a message"
   }
 }

@@ -72,7 +72,9 @@ export function About() {
           </ul>
         </div>
 
-        {/* How to Join */}
+        
+      </div>{/* end sectionsGrid */}
+{/* How to Join */}
         <div className={styles.section}>
           <h2 className={styles.sectionTitle}>{t('about.howToJoin')}</h2>
           <p className={styles.description}>{t('about.joinDescription')}</p>
@@ -87,49 +89,10 @@ export function About() {
             ))}
           </ol>
 
-          <a href="mailto:tenthsfgcz@gmail.com" className={styles.joinButton}>
+          <a href="#contact" className={styles.joinButton}>
             {t('about.joinButton')}
           </a>
         </div>
-
-        {/* Discord */}
-        <div className={styles.section}>
-          <h2 className={styles.sectionTitle}>{t('about.discordTitle')}</h2>
-          <p className={styles.description}>{t('about.discordDescription')}</p>
-          <ul className={styles.list}>
-            {(t('about.discordFeatures', { returnObjects: true }) as string[]).map((f: string, i: number) => (
-              <li key={i}>{f}</li>
-            ))}
-          </ul>
-        </div>
-
-      </div>{/* end sectionsGrid */}
-
-      {/* Follow Us */}
-      <div className={styles.section}>
-        <h2 className={styles.sectionTitle}>{t('about.followUs')}</h2>
-        <p className={styles.description}>
-          <strong>{t('about.facebook')}:</strong>{' '}
-          <a 
-            href="https://www.facebook.com/profile.php?id=61565007811368" 
-            className={styles.socialLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t('about.facebookLink')}
-          </a>
-          <br />
-          <strong>{t('about.instagram')}:</strong>{' '}
-          <a 
-            href="https://www.instagram.com/tenthsfgcz" 
-            className={styles.socialLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @tenthsfgcz
-          </a>
-        </p>
-      </div>
     </section>
   );
 }

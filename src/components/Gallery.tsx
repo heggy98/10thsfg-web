@@ -21,10 +21,6 @@ export function Gallery() {
       <h1 className={styles.galleryTitle}>{t('gallery.title')}</h1>
 
       <div className={styles.instagramContainer}>
-        <p className={styles.instagramDescription}>
-          {t('gallery.description')}
-        </p>
-
         {/* Behold Instagram Feed Widget */}
         <div className={styles.beholdWrapper}>
           <behold-widget feed-id="8V8WOSFtC1g5ca657iMz" />

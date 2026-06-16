@@ -38,17 +38,6 @@ export function Contact() {
           </a>
         </li>
         <li>
-          <span className={styles.contactLabel}>Facebook Messenger: </span>
-          <a
-            href="https://m.me/61565007811368"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.contactLink}
-          >
-            {t('contact.messengerLink')}
-          </a>
-        </li>
-        <li>
           <span className={styles.contactLabel}>Email: </span>
           <a
             href="mailto:tenthsfgcz@gmail.com"

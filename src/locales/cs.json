@@ -7,7 +7,7 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "title": "10th SFG Czech Airsoft team",
+    "title": "10th SFG - Český Airsoft Tým",
     "subtitle": "Jsme MilSim tým pocházející převážně z Moravskoslezského kraje, inspirovaný americkou jednotkou 10th Special Forces Group. Pokud hledáš realistické MilSim akce, profesionální přístup a prostředí, kde se můžeš neustále zlepšovat, možná právě u nás najdeš svoje místo."
   },
   "about": {
@@ -47,22 +47,12 @@
     "statMembers": "aktuálně aktivních členů",
     "statAge": "aktuální věkové rozmezí",
     "statTravel": "celá česká republika",
-    "discordTitle": "Náš Discord",
-    "discordDescription": "Členové získají přístup na náš interní Discord server — centrální uzel postavený na operační disciplíně a neustálém zlepšování:",
-    "discordFeatures": [
-      "Kalendář misí s nadcházejícími operacemi",
-      "Dedikovaný kanál pro každou misi s plným briefingem",
-      "Knihovna dokumentů pro seberozvoj",
-      "ATAK manuály a terénní příručky",
-      "Zdroje taktik, technik a postupů (TTP)",
-      "Koordinační kanály týmu a hlasové operace"
-    ],
     "howToJoin": "Jak se přidat",
     "joinDescription": "Stačí nám napsat pár vět o sobě a proč chceš právě k nám. Následně se ti ozveme, domluvíme si schůzku a probereme vše, co tě zajímá. Finální nábor probíhá zejména během cvičení v oblasti Králického Sněžníku a Mošnova.",    "joinProcessTitle": "Co tě čeká po tom, co se ozveš",
     "joinSteps": [
-      "Někdo z našeho týmu se ti ozve a domluvime osobní setkání, nebo tě \u2014 pokud to časově vyjde \u2014 pozváme přímo na další misi. Může jít o plnohodnotnou operaci nebo FTX, kde jako rekrut potkáš většinu členů týmu.",
+      "Někdo z našeho týmu se ti ozve a domluvime osobní setkání, nebo tě, pokud to časově vyjde, pozveme přímo na další akci. Může jít o plnohodnotnou operaci nebo FTX, kde jako rekrut potkáš většinu členů týmu.",
       "Po akci tým rozhodne, jestli jsi někdo, s kým chceme trávit své víkendy.",
-      "Noví rekruti musí projít naším \u2018hell weekendem\u2019 \u2014 SFAS \u2014 nejnáročnějším víkendem, který pořádáme. Ověří, že dokážeš zvládnout vše, co děláme. Je to náročná výzva, ale taková, na kterou budeš vzpomínat s hrdostí."
+      "Noví rekruti musí projít \u2018hell weekendem\u2019. SFAS je vstupenka k nám. Ověří, že dokážeš zvládnout vše, co děláme a pracovat v týmu. Je to náročná výzva, ale taková, na kterou budeš vzpomínat s hrdostí."
     ],    "joinButton": "Chci se přidat",
     "followUs": "Sleduj nás",
     "facebook": "Facebook",
@@ -71,7 +61,6 @@
   },
   "gallery": {
     "title": "Galerie",
-    "description": "Sleduj nás na Instagramu pro více exkluzivního obsahu z našich operací:",
     "visitButton": "Navštiv náš profil na Instagramu @tenthsfgcz",
     "missions": [
       "Operation Iron Ridge",
@@ -83,7 +72,7 @@
   "contact": {
     "title": "Kontakt",
     "subtitle": "Chceš nás kontaktovat? Napiš nám přes jeden z následujících kanálů:",
-    "facebookLink": "Klikni zde",
+    "facebookLink": "@tenthsfgcz",
     "messengerLink": "Pošli nám zprávu"
   }
 }

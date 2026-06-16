@@ -27,7 +27,7 @@ export function About() {
           <span className={styles.statLabel}>{t('about.statAge')}</span>
         </div>
         <div className={styles.statCard}>
-          <span className={styles.statValue}>CZ</span>
+          <span className={styles.statValue}>CZ/SK</span>
           <span className={styles.statLabel}>{t('about.statTravel')}</span>
         </div>
       </div>

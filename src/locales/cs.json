@@ -43,10 +43,10 @@
       "maskáčový komplet (Multicam nebo Woodland)",
       "základní vybavení pro přespání v lese"
     ],
-    "statMissions": "mise / měsíc",
-    "statMembers": "aktuálně aktivních členů",
-    "statAge": "aktuální věkové rozmezí",
-    "statTravel": "celá česká republika",
+    "statMissions": "Misí za měsíc",
+    "statMembers": "Počet aktivních členů",
+    "statAge": "Aktuální věkové rozpětí",
+    "statTravel": "Oblast působnosti",
     "howToJoin": "Jak se přidat",
     "joinDescription": "Stačí nám napsat pár vět o sobě a proč chceš právě k nám. Následně se ti ozveme, domluvíme si schůzku a probereme vše, co tě zajímá. Finální nábor probíhá zejména během cvičení v oblasti Králického Sněžníku a Mošnova.",    "joinProcessTitle": "Co tě čeká po tom, co se ozveš",
     "joinSteps": [

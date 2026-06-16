@@ -1,0 +1,85 @@
+.gallery {
+  padding: 110px 10%;
+}
+
+.galleryTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.galleryTitle::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 40px;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.instagramContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.instagramDescription {
+  font-size: 1em;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.beholdWrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.instagramLink {
+  margin-top: 20px;
+}
+
+.visitButton {
+  display: inline-block;
+  padding: 11px 28px;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.82em;
+  text-transform: uppercase;
+  transition: background 0.2s, color 0.2s;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+
+.visitButton:hover {
+  background: var(--accent);
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    padding: 80px 6%;
+  }
+
+  .galleryTitle {
+    gap: 12px;
+    margin-bottom: 26px;
+  }
+
+  .galleryTitle::before {
+    height: 28px;
+  }
+}

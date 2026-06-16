@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Domů",
+    "about": "O nás",
+    "features": "Features",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "10th SFG Czech Airsoft team",
+    "subtitle": "Jsme MilSim tým pocházející převážně z Moravskoslezského kraje, inspirovaný americkou jednotkou 10th Special Forces Group. Pokud hledáš realistické MilSim akce, profesionální přístup a prostředí, kde se můžeš neustále zlepšovat, možná právě u nás najdeš svoje místo."
+  },
+  "about": {
+    "whatWeOffer": "Co nabízíme",
+    "offers": [
+      "členství v týmu se zkušenostmi z MilSim operací",
+      "sdílení našeho know‑how a praktických zkušeností",
+      "kvalitní, soukromé akce po celé ČR",
+      "tématické operace včetně nočních bojů",
+      "možnost osobního rozvoje a výcviku bojových taktik",
+      "armádní terminologii a procedury",
+      "přátelský kolektiv a společné aktivity"
+    ],
+    "activities": [
+      "tělocvična",
+      "střelnice",
+      "přednášky (např. TCCC)",
+      "Bootcamp tréninky"
+    ],
+    "whatWeExpect": "Co od tebe očekáváme",
+    "expectations": [
+      "chuť věnovat se MilSim airsoftu a posouvat se dál",
+      "věk 18+ (výjimky možné po domluvě)",
+      "týmového ducha a smysl pro fair‑play",
+      "ochotu investovat čas i prostředky do sebe i týmu",
+      "fyzickou i psychickou odolnost",
+      "flexibilitu a mobilitu",
+      "dobré komunikační schopnosti",
+      "základní výbavu"
+    ],
+    "equipment": [
+      "primární zbraň (upgrade nebo HPA výhodou)",
+      "maskáčový komplet (Multicam nebo Woodland)",
+      "základní vybavení pro přespání v lese"
+    ],
+    "statMissions": "mise / měsíc",
+    "statMembers": "aktuálně aktivních členů",
+    "statAge": "aktuální věkové rozmezí",
+    "statTravel": "celá česká republika",
+    "discordTitle": "Náš Discord",
+    "discordDescription": "Členové získají přístup na náš interní Discord server — centrální uzel postavený na operační disciplíně a neustálém zlepšování:",
+    "discordFeatures": [
+      "Kalendář misí s nadcházejícími operacemi",
+      "Dedikovaný kanál pro každou misi s plným briefingem",
+      "Knihovna dokumentů pro seberozvoj",
+      "ATAK manuály a terénní příručky",
+      "Zdroje taktik, technik a postupů (TTP)",
+      "Koordinační kanály týmu a hlasové operace"
+    ],
+    "howToJoin": "Jak se přidat",
+    "joinDescription": "Stačí nám napsat pár vět o sobě a proč chceš právě k nám. Následně se ti ozveme, domluvíme si schůzku a probereme vše, co tě zajímá. Finální nábor probíhá zejména během cvičení v oblasti Králického Sněžníku a Mošnova.",    "joinProcessTitle": "Co tě čeká po tom, co se ozveš",
+    "joinSteps": [
+      "Někdo z našeho týmu se ti ozve a domluvime osobní setkání, nebo tě \u2014 pokud to časově vyjde \u2014 pozváme přímo na další misi. Může jít o plnohodnotnou operaci nebo FTX, kde jako rekrut potkáš většinu členů týmu.",
+      "Po akci tým rozhodne, jestli jsi někdo, s kým chceme trávit své víkendy.",
+      "Noví rekruti musí projít naším \u2018hell weekendem\u2019 \u2014 SFAS \u2014 nejnáročnějším víkendem, který pořádáme. Ověří, že dokážeš zvládnout vše, co děláme. Je to náročná výzva, ale taková, na kterou budeš vzpomínat s hrdostí."
+    ],    "joinButton": "Chci se přidat",
+    "followUs": "Sleduj nás",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "facebookLink": "Klikni zde"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "description": "Sleduj nás na Instagramu pro více exkluzivního obsahu z našich operací:",
+    "visitButton": "Navštiv náš profil na Instagramu @tenthsfgcz",
+    "missions": [
+      "Operation Iron Ridge",
+      "Recon",
+      "Borderline Strike",
+      "Silent Dawn"
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Chceš nás kontaktovat? Napiš nám přes jeden z následujících kanálů:",
+    "facebookLink": "Klikni zde",
+    "messengerLink": "Pošli nám zprávu"
+  }
+}

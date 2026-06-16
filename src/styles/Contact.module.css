@@ -1,0 +1,145 @@
+.contact {
+  padding: 110px 10%;
+}
+
+.contactHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.contactCrest {
+  width: clamp(140px, 14vw, 230px);
+  opacity: 0.75;
+  filter: drop-shadow(0 0 18px rgba(0, 200, 255, 0.15));
+  flex-shrink: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 600px) {
+  .contactHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contactCrest {
+    width: 110px;
+  }
+}
+
+.contactTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.contactTitle::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 40px;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.contactSubtitle {
+  font-size: 1em;
+  margin-bottom: 40px;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 480px;
+}
+
+.contactList li {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  gap: 0;
+  padding: 18px 20px;
+  border: 1px solid var(--border);
+  border-top: none;
+  background: var(--bg-card);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.contactList li:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.contactList li:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-strong);
+}
+
+.contactList li:hover + li {
+  border-top-color: var(--border-strong);
+}
+
+.contactLabel {
+  font-family: var(--font-mono);
+  font-size: 0.7em;
+  min-width: 130px;
+}
+
+.contactLink {
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.contactLink:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 80px 6%;
+  }
+
+  .contactList {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .contactList li {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    align-items: flex-start;
+    padding: 14px 14px;
+  }
+
+  .contactLabel {
+    min-width: 0;
+  }
+
+  .contactTitle {
+    gap: 12px;
+  }
+
+  .contactTitle::before {
+    height: 28px;
+  }
+}
